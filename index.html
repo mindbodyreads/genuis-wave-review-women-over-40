@@ -9,13 +9,11 @@
 <meta name="keywords" content="genius wave review for women over 40, genius wave review 2026, brain fog women over 40, how to improve focus after 35, theta waves for focus women, menopause brain fog natural remedies, best brain program for women over 40">
 <meta name="author" content="Jack Lowis | MindBodyReads">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://mindbodyreads.github.io/genius-wave-review-women-over-40/">
-<!-- Open Graph -->
+<link rel="canonical" href="https://mindbodyreads.github.io/genuis-wave-review-women-over-40/">
 <meta property="og:title" content="Genius Wave Review for Women Over 40 — Does It Work?">
 <meta property="og:description" content="If you're a woman over 40 dealing with brain fog or poor focus, this honest Genius Wave review shows you what the science says — and what real users experience.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://mindbodyreads.github.io/genius-wave-review-women-over-40/">
-<!-- Schema -->
+<meta property="og:url" content="https://mindbodyreads.github.io/genuis-wave-review-women-over-40/">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -51,7 +49,6 @@ font-family: ‘Lato’, sans-serif;
 overflow-x: hidden;
 }
 
-/* HERO */
 .hero {
 min-height: 100vh;
 background: linear-gradient(160deg, #1a0e05 0%, #2e1a08 40%, #1a0e05 100%);
@@ -106,10 +103,7 @@ margin-bottom: 24px;
 animation: fadeUp 0.9s ease 0.1s both;
 }
 
-.hero h1 em {
-font-style: italic;
-color: var(–gold-light);
-}
+.hero h1 em { font-style: italic; color: var(–gold-light); }
 
 .hero p {
 font-size: clamp(1rem, 2.5vw, 1.2rem);
@@ -121,7 +115,6 @@ font-weight: 300;
 animation: fadeUp 1s ease 0.2s both;
 }
 
-/* DIVIDER */
 .divider {
 display: flex;
 align-items: center;
@@ -133,7 +126,6 @@ animation: fadeUp 1s ease 0.25s both;
 .divider span { flex: 1; height: 1px; background: rgba(201,168,76,0.35); }
 .divider i { color: var(–gold); font-size: 14px; }
 
-/* SECTION */
 .section {
 padding: 80px 24px;
 max-width: 720px;
@@ -165,7 +157,6 @@ margin-bottom: 20px;
 font-weight: 300;
 }
 
-/* SYMPTOMS BOX */
 .symptoms {
 background: linear-gradient(135deg, #fff8ee, #fdf3e3);
 border-left: 3px solid var(–gold);
@@ -183,17 +174,13 @@ line-height: 1.9;
 margin: 0;
 }
 
-/* WAVE SECTION */
 .wave-section {
 background: linear-gradient(135deg, #1a0e05, #2e1a08);
 padding: 80px 24px;
 text-align: center;
 }
 
-.wave-section .inner {
-max-width: 680px;
-margin: 0 auto;
-}
+.wave-section .inner { max-width: 680px; margin: 0 auto; }
 
 .wave-section h2 {
 font-family: ‘Playfair Display’, serif;
@@ -203,10 +190,7 @@ line-height: 1.3;
 margin-bottom: 20px;
 }
 
-.wave-section h2 em {
-color: var(–gold-light);
-font-style: italic;
-}
+.wave-section h2 em { color: var(–gold-light); font-style: italic; }
 
 .wave-section p {
 color: rgba(255,254,249,0.7);
@@ -216,7 +200,6 @@ font-weight: 300;
 margin-bottom: 20px;
 }
 
-/* BENEFITS */
 .benefits {
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -225,9 +208,7 @@ margin: 40px 0;
 text-align: left;
 }
 
-@media (max-width: 500px) {
-.benefits { grid-template-columns: 1fr; }
-}
+@media (max-width: 500px) { .benefits { grid-template-columns: 1fr; } }
 
 .benefit-card {
 background: rgba(255,255,255,0.05);
@@ -236,10 +217,7 @@ border-radius: 12px;
 padding: 24px 20px;
 }
 
-.benefit-card .icon {
-font-size: 1.6rem;
-margin-bottom: 10px;
-}
+.benefit-card .icon { font-size: 1.6rem; margin-bottom: 10px; }
 
 .benefit-card h4 {
 font-family: ‘Playfair Display’, serif;
@@ -255,7 +233,6 @@ margin: 0;
 line-height: 1.6;
 }
 
-/* CTA */
 .cta-section {
 padding: 80px 24px;
 text-align: center;
@@ -279,10 +256,11 @@ font-weight: 300;
 margin-bottom: 40px;
 }
 
+/* ✅ FIX: الزر دايماً ظاهر - مش opacity:0 */
 .cta-btn {
 display: inline-block;
 background: linear-gradient(135deg, var(–gold), var(–accent));
-color: white;
+color: #ffffff !important;
 font-family: ‘Lato’, sans-serif;
 font-size: 1rem;
 font-weight: 700;
@@ -295,23 +273,15 @@ box-shadow: 0 8px 30px rgba(201,168,76,0.35);
 transition: all 0.3s ease;
 position: relative;
 overflow: hidden;
-}
-
-.cta-btn::after {
-content: ‘’;
-position: absolute;
-inset: 0;
-background: rgba(255,255,255,0);
-transition: background 0.3s;
+opacity: 1 !important;
+visibility: visible !important;
+animation: pulse 3s ease-in-out infinite;
 }
 
 .cta-btn:hover {
 transform: translateY(-3px);
 box-shadow: 0 14px 40px rgba(201,168,76,0.45);
-}
-
-.cta-btn:hover::after {
-background: rgba(255,255,255,0.08);
+color: #ffffff !important;
 }
 
 .note {
@@ -321,7 +291,6 @@ color: var(–muted);
 font-style: italic;
 }
 
-/* DISCLAIMER */
 .disclaimer {
 background: #f7f1e8;
 padding: 32px 24px;
@@ -336,7 +305,6 @@ max-width: 600px;
 margin: 0 auto;
 }
 
-/* ANIMATIONS */
 @keyframes fadeUp {
 from { opacity: 0; transform: translateY(24px); }
 to { opacity: 1; transform: translateY(0); }
@@ -347,23 +315,20 @@ opacity: 0;
 transform: translateY(30px);
 transition: opacity 0.7s ease, transform 0.7s ease;
 }
+
 .reveal.visible {
 opacity: 1;
 transform: translateY(0);
 }
 
-/* PULSE */
 @keyframes pulse {
 0%, 100% { box-shadow: 0 8px 30px rgba(201,168,76,0.35); }
 50% { box-shadow: 0 8px 50px rgba(201,168,76,0.6); }
 }
-.cta-btn { animation: pulse 3s ease-in-out infinite; }
 </style>
 
 </head>
 <body>
-
-<!-- HERO -->
 
 <section class="hero">
   <div class="badge">✦ A Special Note from the Author ✦</div>
@@ -375,8 +340,6 @@ transform: translateY(0);
   </div>
   <p>If you're a woman over 40 struggling with brain fog, poor focus, or memory lapses — this page is for you. Everything in <em>Think Sharp After 35</em> gave you the foundation. But there's one science-backed tool I couldn't stop thinking about, and I wanted to share it with every reader personally.</p>
 </section>
-
-<!-- STORY SECTION -->
 
 <section class="section">
   <p class="section-label reveal">Honest Genius Wave Review — From a Reader Like You</p>
@@ -390,8 +353,6 @@ transform: translateY(0);
 
   <p class="reveal">That's when I came across the research behind <strong>theta brainwave activity</strong> — the frequency linked to deep focus, creativity, and learning. And it changed everything I thought I knew about improving focus after 35.</p>
 </section>
-
-<!-- WAVE SECTION -->
 
 <section class="wave-section">
   <div class="inner">
@@ -428,20 +389,18 @@ transform: translateY(0);
   </div>
 </section>
 
-<!-- CTA -->
-
 <section class="cta-section">
   <h2 class="reveal">Is The Genius Wave Worth It<br>for Women Over 40?</h2>
   <p class="reveal">Based on the science of theta wave audio programs and what thousands of women experiencing menopause brain fog have reported — yes, it's worth exploring. It's non-invasive, takes 7 minutes, and comes with a 90-day money-back guarantee.</p>
 
-  <a href="https://hop.clickbank.net/?affiliate=mohameddda&vendor=geniusbr&pid=vsla2" class="cta-btn reveal">
+  <!-- ✅ حذفنا class="reveal" من الزر — دايماً ظاهر الآن -->
+
+  <a href="https://hop.clickbank.net/?affiliate=mohameddda&vendor=geniusbr&pid=vsla2" class="cta-btn">
     Yes — Show Me The Genius Wave →
   </a>
 
   <p class="note reveal">As a reader of <em>Think Sharp After 35</em>, you can access the official Genius Wave page below. This is an affiliate link — if you purchase, I may earn a small thank-you commission at no extra cost to you. I only recommend what I genuinely believe in.</p>
 </section>
-
-<!-- DISCLAIMER -->
 
 <div class="disclaimer">
   <p>© MindBodyReads / Jack Lowis. This page is for informational purposes only and does not constitute medical advice. Individual results may vary. The Genius Wave is a third-party product and is not affiliated with this book or its publisher.</p>
